@@ -1,0 +1,86 @@
+#email-template-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #email-template-form label {
+    margin-top: 1rem;
+  }
+  
+  #email-template-form input, #email-template-form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #email-template-form button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #saved-templates {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  #use-template {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  #email-template-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #email-template-form label {
+    margin-top: 1rem;
+  }
+  
+  #email-template-form input, #email-template-form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #email-template-form button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #saved-templates {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  #use-template {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+

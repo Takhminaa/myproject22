@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<link href="./real3.js"/>
+<link href="./real2.css"/>
+</html>
+<head>
+
+  <title>"Email Template Form"</title>
+  </head>
+  <body>
+    <h1>"Email Template Form"</h1>
+    <form id="email-template-form">
+      <label for="template-name">Template Name:</label>
+      <input type="text" id="template-name" name="template-name" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="body">Body:</label>
+      <textarea id="body" name="body" rows="5" required></textarea>
+
+      <button type="submit">Save Template</button>
+    </form>
+
+    <h2>Saved Templates</h2>
+    <select id="saved-templates">
+      <!-- Saved templates will be dynamically added here -->
+    </select>
+
+    <button id="use-template">Use Template</button>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Template Form</title>
+  </head>
+  <body>
+    <h1>Email Template Form</h1>
+    <form id="email-template-form">
+      <label for="template-name">Template Name:</label>
+      <input type="text" id="template-name" name="template-name" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="body">Body:</label>
+      <textarea id="body" name="body" rows="5" required></textarea>
+
+      <button type="submit">Save Template</button>
+    </form>
+
+    <h2>Saved Templates</h2>
+    <select id="saved-templates">
+      <!-- Saved templates will be dynamically added here -->
+    </select>
+
+    <button id="use-template">Use Template</button>
+
+    <script src="form.js"></script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subscriber Management Form</title>
+  </head>
+  <body>
+    <h1>Subscriber Management Form</h1>
+    <form id="subscriber-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <h2>Subscribed Emails</h2>
+    <ul id="subscribed-emails">
+      <!-- Subscribed emails will be dynamically added here -->
+    </ul>
+
+    <script src="form.js"></script>
+  </body>
+</html>
+
+
+
